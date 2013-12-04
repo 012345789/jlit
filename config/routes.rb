@@ -16,6 +16,7 @@ Jlit::Application.routes.draw do
   get 'about' => 'static_pages#about'
   get 'start' => 'static_pages#start'
   get 'genji' => 'static_pages#genji'
+  get 'genji_warp' => 'static_pages#genji_warp'
   
   
   

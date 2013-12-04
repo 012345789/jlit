@@ -17,8 +17,15 @@ Jlit::Application.routes.draw do
   get 'start' => 'static_pages#start'
   get 'genji' => 'static_pages#genji'
   get 'genji_warp' => 'static_pages#genji_warp'
-  
-  
+  get 'genji_kidnap' => 'static_pages#genji_kidnap'
+  get 'genji_secret' => 'static_pages#genji_secret'
+  get 'genji_run' => 'static_pages#genji_run'
+  get 'genji_fight' => 'static_pages#genji_fight'
+  get 'genji_toothpick' => 'static_pages#genji_toothpick'
+  get 'genji_katana' => 'static_pages#genji_katana'
+  get 'genji_gun' => 'static_pages#genji_gun
+
+
   
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products

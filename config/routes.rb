@@ -1,9 +1,4 @@
 Jlit::Application.routes.draw do
-  get "static_pages/home"
-
-  get "static_pages/help"
-
-  get "static_pages/about"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -15,8 +10,15 @@ Jlit::Application.routes.draw do
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
-  root :to => 'pages#home'
-
+  root :to => 'static_pages#home'
+  get "static_pages/home"
+  get "static_pages/help"
+  get 'about' => 'static_pages#about'
+  get 'start' => 'static_pages#start'
+  get 'genji' => 'static_pages#genji'
+  
+  
+  
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 

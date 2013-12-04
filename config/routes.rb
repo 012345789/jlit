@@ -23,7 +23,7 @@ Jlit::Application.routes.draw do
   get 'genji_fight' => 'static_pages#genji_fight'
   get 'genji_toothpick' => 'static_pages#genji_toothpick'
   get 'genji_katana' => 'static_pages#genji_katana'
-  get 'genji_gun' => 'static_pages#genji_gun
+  get 'genji_gun' => 'static_pages#genji_gun'
 
 
   

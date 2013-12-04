@@ -24,7 +24,8 @@ Jlit::Application.routes.draw do
   get 'genji_toothpick' => 'static_pages#genji_toothpick'
   get 'genji_katana' => 'static_pages#genji_katana'
   get 'genji_gun' => 'static_pages#genji_gun'
-
+  get 'genji_drunk' => 'static_pages#genji_drunk'
+  get 'genji_punishment' => 'static_pages#genji_punishment'
 
   
   # Sample resource route (maps HTTP verbs to controller actions automatically):

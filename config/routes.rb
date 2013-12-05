@@ -65,6 +65,17 @@ Jlit::Application.routes.draw do
   get 'dunes_threaten2' => 'static_pages#dunes_threaten2'
   get 'dunes_swoon2' => 'static_pages#dunes_swoon2'
   get 'dunes_solo' => 'static_pages#dunes_solo'
+  get 'dunes_nothing' => 'static_pages#dunes_nothing'
+  get 'dunes_scoot' => 'static_pages#dunes_scoot'
+  get 'dunes_leave' => 'static_pages#dunes_leave'
+  get 'dunes_conspire' => 'static_pages#dunes_conspire'
+  get 'dunes_run' => 'static_pages#dunes_run'
+  get 'dunes_freedom' => 'static_pages#dunes_freedom'
+  get 'dunes_capture' => 'static_pages#dunes_capture'
+  get 'dunes_help' => 'static_pages#dunes_help'
+  get 'dunes_fastforward' => 'static_pages#dunes_fastforward'
+  get 'dunes_sleep' => 'static_pages#dunes_sleep'
+  get 'dunes_ladder' => 'static_pages#dunes_ladder'
   
 
   

@@ -15,6 +15,7 @@ Jlit::Application.routes.draw do
   get "static_pages/help"
   get 'about' => 'static_pages#about'
   get 'start' => 'static_pages#start'
+  
   get 'genji' => 'static_pages#genji'
   get 'genji_warp' => 'static_pages#genji_warp'
   get 'genji_kidnap' => 'static_pages#genji_kidnap'
@@ -26,6 +27,32 @@ Jlit::Application.routes.draw do
   get 'genji_gun' => 'static_pages#genji_gun'
   get 'genji_drunk' => 'static_pages#genji_drunk'
   get 'genji_punishment' => 'static_pages#genji_punishment'
+  get 'genji_conscience' => 'static_pages#genji_conscience'
+  get 'genji_deal' => 'static_pages#genji_deal'
+  
+  get 'naomi' => 'static_pages#naomi'
+  get 'naomi_warp' => 'static_pages#naomi_warp'
+  get 'naomi_convince' => 'static_pages#naomi_convince'
+  get 'naomi_gone' => 'static_pages#naomi_gone'
+  get 'naomi_friend' => 'static_pages#naomi_friend'
+  get 'naomi_refuse' => 'static_pages#naomi_refuse'
+  get 'naomi_noroom' => 'static_pages#naomi_noroom'
+  get 'naomi_ownroom' => 'static_pages#naomi_ownroom'
+  get 'naomi_continue' => 'static_pages#naomi_continue'
+  get 'naomi_beg' => 'static_pages#naomi_beg'
+  get 'naomi_cry' => 'static_pages#naomi_cry'
+  get 'naomi_strength' => 'static_pages#naomi_strength'
+  get 'naomi_door' => 'static_pages#naomi_door'
+  get 'naomi_in' => 'static_pages#naomi_in'
+  
+  get 'snow' => 'static_pages#snow'
+  get 'snow_warp' => 'static_pages#snow_warp'
+  get 'snow_wake' => 'static_pages#snow_wake'
+  get 'snow_social' => 'static_pages#snow_social'
+  get 'snow_observe' => 'static_pages#snow_observe'
+  get 'snow_run' => 'static_pages#snow_run'
+  
+  
 
   
   # Sample resource route (maps HTTP verbs to controller actions automatically):

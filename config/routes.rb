@@ -52,6 +52,19 @@ Jlit::Application.routes.draw do
   get 'snow_observe' => 'static_pages#snow_observe'
   get 'snow_run' => 'static_pages#snow_run'
   
+  get 'dunes' => 'static_pages#dunes'
+  get 'dunes_warp' => 'static_pages#dunes_warp'
+  get 'dunes_wake' => 'static_pages#dunes_wake'
+  get 'dunes_dig' => 'static_pages#dunes_dig'
+  get 'dunes_refuse' => 'static_pages#dunes_refuse'
+  get 'dunes_widow' => 'static_pages#dunes_widow'
+  get 'dunes_hostage' => 'static_pages#dunes_hostage'
+  get 'dunes_swoon' => 'static_pages#dunes_swoon'
+  get 'dunes_question' => 'static_pages#dunes_question'
+  get 'dunes_threaten' => 'static_pages#dunes_threaten'
+  get 'dunes_threaten2' => 'static_pages#dunes_threaten2'
+  get 'dunes_swoon2' => 'static_pages#dunes_swoon2'
+  get 'dunes_solo' => 'static_pages#dunes_solo'
   
 
   
